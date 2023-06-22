@@ -15,7 +15,7 @@
 
 .signin-model .nav-tabs .nav-link.active {
     background-color: white;
-    color: orange;
+    color: #cc776f;
 }
 
 .signin-model .nav-tabs .nav-item {
@@ -61,7 +61,7 @@
     font-size: 0.690rem;
     background-color: white;
     color: #777777;
-    border: 1px solid orange;
+    border: 1px solid #cc776f;
 }
 
 .modal-body.signin-model {
