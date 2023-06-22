@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+
+  <!-- style.css  -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Bootstrap icon  -->
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css'>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- **********header section********** -->
+  <div id="main-header"></div>
+
+  <main>
+    <!-- contact section  -->
+    <section class="contactSection text-center" id="contact">
+      <div class="container-fluid">
+        <img src="images/headcart1.jpg" alt="" width="100%">
+        <div class="heading">
+          <h2>CONTACT</h2>
+        </div>
+        <div>
+          <form onsubmit="sendEmail(); reset(); return false;">
+            <div class="margin10">
+              <input type="text" id="nameInput" class="" placeholder="Name">
+            </div>
+            <div class="margin10">
+              <input type="email" id="emailInput" class="" placeholder="Email">
+            </div>
+            <div class="margin10">
+              <textarea class="" id="messageInput" rows="5" placeholder="Message"></textarea>
+            </div>
+            <a href="#home"><button id="contactSubmit" type="submit" class="btn">Submit</button></a>
+            
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- **********Footer section********** -->
+  <div id="main-footer"></div>
+
+
+  <!-- **********JavaScript bundle********** -->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- **********custome.js file********** -->
+  <script type="text/javascript" src="js/custom.js"></script>
+  <script type="text/javascript" src="js/contact.js"></script>
+</body>
+
+</html>

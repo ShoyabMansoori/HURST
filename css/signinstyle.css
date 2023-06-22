@@ -1,0 +1,75 @@
+/* ***************signin Button trigger modal scc********* */
+
+.modal-body {
+    padding: 0;
+}
+
+.signin-model .nav-tabs .nav-link {
+    background-color: #bababa;
+    border-radius: 0;
+    font-weight: bold;
+    border-color: white;
+    color: rgb(86, 86, 86);
+
+}
+
+.signin-model .nav-tabs .nav-link.active {
+    background-color: white;
+    color: orange;
+}
+
+.signin-model .nav-tabs .nav-item {
+    width: 50%;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.signin-model .nav-tabs {
+    border-bottom: none;
+}
+
+.signin-tab {
+    padding: 0 3rem;
+}
+
+.input-group-flex span {
+    border-radius: 0;
+}
+
+.signin-tab input.form-control {
+    height: 30px;
+    font-size: 12px;
+    border-radius: 0;
+    color: #000000;
+    box-shadow: none;
+
+}
+
+.signin-tab button.btn {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 0;
+    color: white;
+    border: none;
+}
+
+.signin-tab button.btn.btn-outline-warning {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 0;
+    font-weight: bold;
+    font-size: 0.690rem;
+    background-color: white;
+    color: #777777;
+    border: 1px solid orange;
+}
+
+.modal-body.signin-model {
+    padding: 0;
+    padding-bottom: 50px;
+}
+
+.signin-social a {
+    margin-bottom: 50px;
+    border: none;
+}

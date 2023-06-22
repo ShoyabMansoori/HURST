@@ -1,0 +1,34 @@
+/* Contact section css */
+.contactSection .heading{
+    padding: 30px 0;
+}
+
+.contactSection .container-fluid {
+    background-color: rgb(94, 94, 94);
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.contactSection .container-fluid .heading h2 {
+    color: white;
+}
+
+.contactSection .container-fluid input,
+.contactSection .container-fluid textarea {
+    background-color: rgb(65, 65, 65);
+    border: none;
+}
+
+.contactSection .container-fluid button {
+    background: none;
+    color: white;
+    border: 1px solid white;
+    font-weight: bold;
+}
+
+.contactSection .container-fluid input,
+.contactSection .container-fluid textarea {
+    width: 70%;
+    padding: 12px;
+    border-radius: 4px;
+    margin: 1px 30px;
+}

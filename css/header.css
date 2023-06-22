@@ -1,0 +1,129 @@
+/* top navigation bar */
+#top-navigation {
+    background-color: #cc776f;
+    margin-top: 20px;
+}
+
+#top-navigation a,.main-navigation a{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.social-media-icons div i {
+    color: #ffffff;
+    background-color: #000000;
+    margin: 14px 5px;
+    padding: 6px 8px;
+    border-radius: 50%;
+}
+
+.search-wrapper {
+    padding: 0 15px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.search-wrapper input {
+    max-width: 200px;
+    margin: auto;
+    background-color: transparent;
+    border: 0px;
+    outline: none;
+}
+
+.telephone-wrapper i {
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 6px 8px;
+}
+
+#top-navigation div a {
+    color: white;
+    text-decoration: none;
+}
+
+select {
+    border: none;
+    color: white;
+    background-color: transparent;
+}
+
+.coutry-wrapper img {
+    padding-right: 5px;
+    border-radius: 20px;
+}
+
+.coutry-wrapper option {
+    color: rgb(0, 0, 0);
+}
+
+/* main navigation bar */
+
+#header-sticky {
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    opacity: 0.95;
+    z-index: 2;
+    padding: 10px 0;
+}
+
+.sticky {
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 10px 15px gray;
+    animation: name 3s timing-function delay iteration-count direction fill-mode;
+}
+.container-fluid div ul{
+    padding-top: 20px;
+    list-style-type: none;
+}
+.container-fluid div ul li a{
+    flex-shrink: 0;
+    margin: 0 20px;
+    text-decoration: none;
+    padding-top: 10px;
+    color: rgb(71, 71, 71);
+}
+
+.container-fluid div ul li a:hover {
+   color: #caba9f; 
+}
+
+.container-fluid i {
+    margin: 10px 15px;
+    color: #777777;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.container-fluid ul {
+    padding: 10px 40px
+}
+
+.header-button {
+    color: white;
+    background-color: #cc776f;
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 50px;
+    margin: 10px;
+    
+}
+
+.header-button:hover {
+    color: rgb(0, 0, 0);
+    background-color: #d2685e;
+    border: none;
+    font-weight: bold;
+    border-radius: 50px;
+    margin: 10px;
+}
